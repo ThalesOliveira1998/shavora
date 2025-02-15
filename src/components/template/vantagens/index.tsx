@@ -1,5 +1,5 @@
 import Area from "../comum/Area";
-import vantagem01 from "../../../../public/vantagem01.jpg"
+import vantagem01 from "../../../../public/vantagem-1.jpg"
 import vantagem2 from "../../../../public/vantagem-2.jpg"
 import vantagem3 from "../../../../public/vantagem-3.jpg"
 import Vantagem from "./Vantagem";
