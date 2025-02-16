@@ -17,7 +17,7 @@ export default function QuemSomos() {
                     inverter
                 />
                 <Vantagem
-                    imagem={{ src: "/vantagem-3.jpg", width: 500, height: 300 }}  
+                    imagem={{ src: "/IMG_5429.jpg", width: 500, height: 300 }}  
                     titulo="O que é Shavorã?"
                     subtitulo="Shavorã é um termo do povo Yawanawá, que representa a união de duas mulheres do mundo espiritual..."
                 />
@@ -28,7 +28,7 @@ export default function QuemSomos() {
                     inverter
                 />
                    <Vantagem
-                    imagem={{ src: "/vantagem-5.jpg", width: 500, height: 300 }}  
+                    imagem={{ src: "/IMG_1159.jpg", width: 500, height: 300 }}  
                     titulo="O que é medicina da espiritual?"
                     subtitulo="A medicina espiritual Yawanawá usa plantas sagradas, cantos e rituais para cura e conexão espiritual. Guiada por lideres, tem na ayahuasca (Uni) um meio de autoconhecimento e preservação cultural."
                 />
