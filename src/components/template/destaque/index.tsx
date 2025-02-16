@@ -5,7 +5,7 @@ import ImagemResponsiva from "../comum/ImagemResponsiva";
 
 export default function Destaque() {
     return (
-        <Area id="inicio" className="pt-20">
+        <Area id="inicio" className="pt-20 bg-[#0A0A0A]"> {/* Preto levemente suavizado */}
             <div className="flex flex-col-reverse md:flex-row items-center justify-around h-auto md:h-[500px]">
                 <Slogan />
                 <ImagemResponsiva

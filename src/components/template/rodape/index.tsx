@@ -4,13 +4,13 @@ import RedesSociais from "@/components/template/rodape/RedesSociais";
 
 export default function Rodape() {
     return (
-        <Area className="bg-gray py-1">
+        <Area className="bg-[#0A0A0A] py-1"> {/* Preto levemente suavizado */}
             <div className="flex flex-col items-center md:items-start">
                 <Logo />
                 
                 <div className="mt-2 text-zinc-400 text-center md:text-left">
                     <div className="flex gap-1.5">
-                    Conheça nossas
+                        Conheça nossas
                         <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-red-600">
                             redes
                         </span>
