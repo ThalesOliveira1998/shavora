@@ -1,12 +1,11 @@
-import React from "react"
-import ImagemResponsiva from "../comum/ImagemResponsiva"
+import React, { ReactNode } from "react";
+import ImagemResponsiva from "../comum/ImagemResponsiva";
 
 export interface VantagemProps {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    imagem: any
-    titulo: string
-    subtitulo: string
-    inverter?: boolean
+    imagem: any;
+    titulo: string;
+    subtitulo: ReactNode;  // Alterado para ReactNode
+    inverter?: boolean;
 }
 
 export default function QuemSomo(props: VantagemProps) {
@@ -32,5 +31,5 @@ export default function QuemSomo(props: VantagemProps) {
                 </span>                
             </div>
         </div>
-    )
+    );
 }
