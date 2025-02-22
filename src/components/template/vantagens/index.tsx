@@ -6,42 +6,7 @@ export default function QuemSomos() {
     return (
         <Area id="Quem somos" className="bg-black py-16 sm:py-36">
             <div className="flex flex-col items-center gap-y-16 sm:gap-y-36">
-                <Vantagem
-                    imagem={{ src: "/vantagem-1.jpg", width: 500, height: 300 }}  
-                    titulo="Nãwãēma"
-                    subtitulo={
-                        <ExpandableText 
-                            text={`É uma mulher profundamente conectada à espiritualidade, à luta pelos direitos das mulheres e à preservação das tradições ancestrais. 
-                            O seu caminho e conexão espiritual vem do singular sincretismo afro-brasileiro, da tradição da Umbanda, onde se dedicou ao aprendizado desde muito jovem, através de sua linhagem familiar. 
-                            Essa tradição lhe proporcionou uma base sólida de fundamento, fé, respeito aos ancestrais e trabalho espiritual. 
-                            Ao longo de sua vida, desenvolveu uma compreensão única da força feminina como pilar da transformação espiritual e social. 
-                            Quando conheceu Hukena, ampliou sua conexão espiritual e iniciou um profundo processo de aprendizado ao mergulhar nas práticas da tradição Yawanawa. 
-                            Sob a orientação de Hushahu Yawanawá, sua professora, passou por iniciações e jejuns espirituais fortalecendo seu compromisso com as medicinas sagradas e a responsabilidade de servi-las. 
-                            Busca plantar sementes de amor, respeito e consciência. Sua missão vai além da espiritualidade; é uma luta por equidade, inclusão e o resgate da essência feminina como força inovadora.
-                            Acredita no poder das mulheres como guardiãs do sagrado e líderes da transformação.
-                            Atualmente, é líder espiritual, idealizadora e cofundadora do movimento Shavorã, junto com Hukena.`}
-                            maxWords={30}
-                        />
-                    }
-                    
-                />
-                <Vantagem
-                    imagem={{ src: "/vantagem-2.jpg", width: 500, height: 300 }}  
-                    titulo="Hukena"
-                    subtitulo={
-                        <ExpandableText 
-                            text={`É uma mulher indígena da etnia Yawanawá.
-Iniciou sua jornada no caminho da espiritualidade muito jovem, sendo uma das mulheres mais jovens de seu povo a ser totalmente iniciada nas práticas espirituais mais sagradas e importantes de sua tradição. Ela recebeu essas bênçãos e ensinamentos das mãos e do coração de Tata, um dos dois últimos grandes mestres espirituais da nação Yawanawa, e de sua mãe Hushahu.
-Desde então ela dedica a jornada de sua vida ao estudo das medicinas sagradas.
-Através e a partir dos saberes ancestrais desta tradição, ela conduz cerimônias espirituais e curativas por todo o Brasil e exterior, levando sua força, seus saberes e seus cantos ao lado das sagradas medicinas.
-Atualmente, tem se destacado por sua liderança espiritual e cultural. Ela representa a força feminina dentro de uma tradição que, historicamente, foi amplamente dominada pelos homens. Sua trajetória se conecta ao legado de sua mãe, Hushahu, a primeira mulher Yawanawá a conquistar um espaço espiritual dentro de seu povo, e se tornar a primeira mulher pajé do povo Yawanawa, rompendo com estruturas muito patriarcais.
-Hukena é pioneira em assumir um relacionamento com outra mulher dentro de seu povo, ao lado de Dominique (Nãwãēma). `}
-                            maxWords={30}
-                        />
-                    }
-                    inverter
-                />
-              <Vantagem
+            <Vantagem
                     imagem={{ src: "/IMG_5429.jpg", width: 500, height: 300 }}  
                     titulo="O que é Shavorã?"
                     subtitulo={
@@ -61,6 +26,42 @@ A essência de Shavorã está enraizada no equilíbrio entre o feminino e o sagr
                     }
                     
                 />  
+                <Vantagem
+                    imagem={{ src: "/vantagem-1.jpg", width: 500, height: 300 }}  
+                    titulo="Nãwãēma"
+                    subtitulo={
+                        <ExpandableText 
+                            text={`É uma mulher profundamente conectada à espiritualidade, à luta pelos direitos das mulheres e à preservação das tradições ancestrais. 
+                            O seu caminho e conexão espiritual vem do singular sincretismo afro-brasileiro, da tradição da Umbanda, onde se dedicou ao aprendizado desde muito jovem, através de sua linhagem familiar. 
+                            Essa tradição lhe proporcionou uma base sólida de fundamento, fé, respeito aos ancestrais e trabalho espiritual. 
+                            Ao longo de sua vida, desenvolveu uma compreensão única da força feminina como pilar da transformação espiritual e social. 
+                            Quando conheceu Hukena, ampliou sua conexão espiritual e iniciou um profundo processo de aprendizado ao mergulhar nas práticas da tradição Yawanawa. 
+                            Sob a orientação de Hushahu Yawanawá, sua professora, passou por iniciações e jejuns espirituais fortalecendo seu compromisso com as medicinas sagradas e a responsabilidade de servi-las. 
+                            Busca plantar sementes de amor, respeito e consciência. Sua missão vai além da espiritualidade; é uma luta por equidade, inclusão e o resgate da essência feminina como força inovadora.
+                            Acredita no poder das mulheres como guardiãs do sagrado e líderes da transformação.
+                            Atualmente, é líder espiritual, idealizadora e cofundadora do movimento Shavorã, junto com Hukena.`}
+                            maxWords={30}
+                        />
+                    }
+                    inverter
+                />
+                <Vantagem
+                    imagem={{ src: "/vantagem-2.jpg", width: 500, height: 300 }}  
+                    titulo="Hukena"
+                    subtitulo={
+                        <ExpandableText 
+                            text={`É uma mulher indígena da etnia Yawanawá.
+Iniciou sua jornada no caminho da espiritualidade muito jovem, sendo uma das mulheres mais jovens de seu povo a ser totalmente iniciada nas práticas espirituais mais sagradas e importantes de sua tradição. Ela recebeu essas bênçãos e ensinamentos das mãos e do coração de Tata, um dos dois últimos grandes mestres espirituais da nação Yawanawa, e de sua mãe Hushahu.
+Desde então ela dedica a jornada de sua vida ao estudo das medicinas sagradas.
+Através e a partir dos saberes ancestrais desta tradição, ela conduz cerimônias espirituais e curativas por todo o Brasil e exterior, levando sua força, seus saberes e seus cantos ao lado das sagradas medicinas.
+Atualmente, tem se destacado por sua liderança espiritual e cultural. Ela representa a força feminina dentro de uma tradição que, historicamente, foi amplamente dominada pelos homens. Sua trajetória se conecta ao legado de sua mãe, Hushahu, a primeira mulher Yawanawá a conquistar um espaço espiritual dentro de seu povo, e se tornar a primeira mulher pajé do povo Yawanawa, rompendo com estruturas muito patriarcais.
+Hukena é pioneira em assumir um relacionamento com outra mulher dentro de seu povo, ao lado de Dominique (Nãwãēma). `}
+                            maxWords={30}
+                        />
+                    }
+                    
+                />
+              
              <Vantagem
                     imagem={{ src: "/vantagem-4.jpg", width: 500, height: 300 }}  
                     titulo="Quem são os Yawanawá?"
