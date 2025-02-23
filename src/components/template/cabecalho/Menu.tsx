@@ -1,6 +1,6 @@
 import { useState } from "react";
-import {MenuItem} from "./MenuItem";
-import { FaBars, FaHome, FaUsers, FaCommentDots } from "react-icons/fa"; // Ícones do menu
+import { MenuItem } from "./MenuItem";
+import { FaBars, FaHome,  FaCommentDots, FaEnvelope, FaGlobe } from "react-icons/fa"; // Ícones do menu
 
 export default function Menu() {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -23,17 +23,21 @@ export default function Menu() {
                     className="absolute left-0 mt-3 w-60 bg-white/10 backdrop-blur-lg border border-white/20 
                     rounded-xl shadow-2xl flex flex-col items-start p-3 animate-slideDown"
                 >
-                    <MenuItem url="#inicio" className="menu-item">
+                    <MenuItem url="/" className="menu-item">
                         <FaHome size={18} />
                         Início
                     </MenuItem>
-                    <MenuItem url="#quemsomo" className="menu-item">
-                        <FaUsers size={18} />
-                        Quem somos
-                    </MenuItem>
-                    <MenuItem url="#depoimentos" className="menu-item">
+                    <MenuItem url="/#depoimentos" className="menu-item">
                         <FaCommentDots size={18} />
                         Depoimentos
+                    </MenuItem>
+                    <MenuItem url="/faleconosco" className="menu-item">
+                        <FaEnvelope size={18} />
+                        Fale Conosco
+                    </MenuItem>
+                    <MenuItem url="#rodape" className="menu-item">
+                        <FaGlobe size={18} />
+                        Redes Sociais
                     </MenuItem>
                 </div>
             )}

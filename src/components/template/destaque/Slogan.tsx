@@ -12,7 +12,7 @@ export default function Slogan() {
                     <div className={`relative`}>
                         <span
                             className={`
-                          absolute bottom-1 left-0 w-full border-b-8 border-[#0439f2] -rotate-2
+                          absolute bottom-1 left-0 w-full border-b-8 border-[#bf1407] -rotate-2
                         `}
                         ></span>
                         <span className="relative">Conectando</span>

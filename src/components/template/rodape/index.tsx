@@ -4,7 +4,7 @@ import RedesSociais from "@/components/template/rodape/RedesSociais";
 
 export default function Rodape() {
     return (
-        <Area className="bg-[#0A0A0A] py-1"> {/* Preto levemente suavizado */}
+        <Area id="rodape" className="bg-[#0A0A0A] py-1"> {/* Preto levemente suavizado */}
             <div className="flex flex-col items-center md:items-start">
                 <Logo />
                 
