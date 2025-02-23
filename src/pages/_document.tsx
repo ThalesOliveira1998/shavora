@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Analytics } from "@vercel/analytics/react"
 import { ColorSchemeScript } from '@mantine/core';
 
 export default class _Document extends Document {
@@ -11,6 +12,7 @@ export default class _Document extends Document {
         <body>
           <Main />
           <NextScript />
+          <Analytics />
         </body>
       </Html>
     );
