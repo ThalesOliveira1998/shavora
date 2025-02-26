@@ -4,7 +4,7 @@ import ImagemResponsiva from "../comum/ImagemResponsiva";
 export interface VantagemProps {
     imagem: any;
     titulo: string;
-    subtitulo: ReactNode;  // Alterado para ReactNode
+    subtitulo: ReactNode;
     inverter?: boolean;
 }
 
@@ -16,7 +16,12 @@ export default function QuemSomo(props: VantagemProps) {
         `}>
             <ImagemResponsiva
                 imagem={props.imagem}
-                className={props.inverter ? 'sm:rotate-6' : 'sm:-rotate-6'}
+                className={`
+                    w-full sm:w-auto
+                    h-[70vh] sm:h-auto
+                    object-cover
+                    ${props.inverter ? 'sm:rotate-6' : 'sm:-rotate-6'}
+                `}
             />
             <div className={`
                 flex flex-col gap-y-6 sm:w-[350px]
@@ -25,7 +30,9 @@ export default function QuemSomo(props: VantagemProps) {
                 <div className={`
                     flex flex-col text-white
                     font-black text-2xl sm:text-4xl
-                `}>{props.titulo}</div>
+                `}>
+                    {props.titulo}
+                </div>
                 <span className="font-light text-base sm:text-lg text-zinc-500">
                     {props.subtitulo}
                 </span>                

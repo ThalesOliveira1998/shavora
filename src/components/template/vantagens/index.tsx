@@ -67,23 +67,26 @@ Hukena é pioneira em assumir um relacionamento com outra mulher dentro de seu p
                     titulo="Quem são os Yawanawá?"
                     subtitulo={
                         <ExpandableText 
-                            text={`Os Yawanawá são um povo indígena que vive na Terra Indígena Rio Gregório, no município de Tarauacá, no Acre. A palavra Yawanawá é composta por yawa queixada e nawa gente.`}
+                            text={`O povo Yawanawá é um grupo indígena que habita a região do rio Gregório, no Acre, Brasil. Pertencem à família linguística Pano e possuem uma rica tradição espiritual, cultural e medicinal.
+
+Espiritualidade e Medicinas Sagradas
+
+Os Yawanawá são conhecidos por seu profundo conhecimento das medicinas da floresta, como o rapé, a ayahuasca (uni) e outras plantas de poder utilizadas em rituais de cura e expansão da consciência. Seu caminho espiritual envolve longos períodos de dieta e isolamento, onde os iniciados aprendem diretamente com os espíritos da floresta e os pajés mais experientes.
+
+Hushahu Yawanawá foi a primeira mulher de seu povo a romper as barreiras do patriarcado e tornar-se pajé, abrindo caminho para outras mulheres dentro da espiritualidade Yawanawá. Sua filha, Hukena Yawanawá, seguiu seus passos e hoje é uma das líderes espirituais mais jovens da tradição.
+
+Cultura e Cânticos Sagrados
+
+Os cantos Yawanawá são uma das partes mais importantes da sua tradição. São considerados rezos e possuem o poder de cura, conexão com os espíritos e fortalecimento da energia em cerimônias. Muitos desses cânticos foram preservados por gerações e são passados oralmente aos iniciados.
+
+Resistência e Atualidade
+
+Os Yawanawá passaram por períodos de grande opressão, especialmente com a chegada dos seringalistas no século XX. No entanto, nas últimas décadas, têm se fortalecido e retomado suas práticas ancestrais, abrindo espaço para que suas tradições sejam conhecidas pelo mundo. Além disso, têm lutado pela demarcação e proteção de suas terras e pelo fortalecimento da identidade indígena.`}
                             maxWords={30}
                         />
                     }
                     inverter
                 /> 
-                <Vantagem
-                    imagem={{ src: "/IMG_1159.jpg", width: 500, height: 300 }}  
-                    titulo="O que é medicina da espiritual?"
-                    subtitulo={
-                        <ExpandableText 
-                            text={`A medicina espiritual Yawanawá usa plantas sagradas, cantos e rituais para cura e conexão espiritual. Guiada por lideres, tem na ayahuasca (Uni) um meio de autoconhecimento e preservação cultural.`}
-                            maxWords={30}
-                        />
-                    }
-                    
-                />   
             </div>
         </Area>
     );
