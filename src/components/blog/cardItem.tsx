@@ -8,7 +8,7 @@ interface BlogPostProps {
 }
 
 export function BlogPost({ title, image, content }: BlogPostProps) {
-  console.log("Imagem recebida no Post:", image); // 🔍 Verifica se a imagem está chegando corretamente
+  console.log("Imagem recebida no Post:", image); //  Verifica se a imagem está chegando corretamente
 
   return (
     <Area>
