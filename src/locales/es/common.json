@@ -1,0 +1,65 @@
+{
+  "menu": {
+    "title": "Menú",
+    "home": "Inicio",
+    "testimonials": "Testimonios",
+    "contact": "Contáctanos",
+    "social": "Redes Sociales"
+  },
+  "slogan": {
+    "connecting": "Conectando",
+    "cultures": "Culturas",
+    "and": "y",
+    "healingSouls": "sanando almas",
+    "story": "Dos voces, una historia. Descubre nuestra historia",
+    "duo": "El dúo Shavorã mezcla emoción y autenticidad en cada nota."
+  },
+  "whoweare": {
+    "shavoraTitle": "¿Qué es Shavorã?",
+    "shavoraText": "Raíces y alas La palabra Shavorã significa mujer en el idioma Yawanawa. El movimiento Shavorã simboliza la lucha por la equidad, la igualdad, el empoderamiento de las mujeres indígenas y la visibilidad de la comunidad LGBTQIAPN+ en el contexto de las tradiciones indígenas. La misión de Shavorã es transformar la realidad social y espiritual proporcionando una plataforma para que las voces femeninas y LGBTQIAPN+ sean escuchadas y respetadas.",
+    "nawaemaTitle": "Nãwãēma",
+    "nawaemaText": "Es una mujer profundamente conectada con la espiritualidad, la lucha por los derechos de las mujeres y la preservación de las tradiciones ancestrales. Su camino espiritual proviene del singular sincretismo afrobrasileño de la tradición Umbanda, donde se dedicó al aprendizaje desde muy joven a través de su linaje familiar.",
+    "hukenaTitle": "Hukena",
+    "hukenaText": "Es una mujer indígena de la etnia Yawanawá. Inició su camino en la espiritualidad desde muy joven, siendo una de las mujeres más jóvenes de su pueblo en ser completamente iniciada en las prácticas espirituales más sagradas e importantes de su tradición.",
+    "yawanawaTitle": "¿Quiénes son los Yawanawá?",
+    "yawanawaText": "El pueblo Yawanawá es un grupo indígena que habita la región del río Gregório en Acre, Brasil. Pertenecen a la familia lingüística Pano y tienen una rica tradición espiritual, cultural y medicinal."
+  },
+  "testimonials": {
+    "title": "Testimonios de quienes nos acompañan...",
+    "priscila": {
+      "name": "Priscila Oliveira",
+      "title": "Oyente del dúo",
+      "text": "Siempre escucho la música de Shavorã; es como un remedio para mi alma. Cada melodía trae paz, conexión y una energía que toca profundamente."
+    },
+    "celso": {
+      "name": "Celso Mário",
+      "title": "Participante de ceremonias",
+      "text": "Participé en una de las ceremonias de Shavorã y el evento transformó mi vida de una manera profunda."
+    },
+    "beatriz": {
+      "name": "Beatriz Farias",
+      "title": "Entusiasta del dúo",
+      "text": "Creo profundamente en la importancia del trabajo que realizan Dominique y Hukena, ya que presentan la cultura Yawanawa al mundo."
+    }
+  },
+  "footer": {
+    "knowOur": "Conoce nuestras",
+    "networks": "redes",
+    "social": "sociales",
+    "createdBy": "Creado y desarrollado por",
+    "rights": "Todos los derechos reservados"
+  },
+  
+    "contact": {
+      "title": "Contáctanos",
+      "formTitle": "Ponte en contacto con nosotros",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "send": "Enviar",
+      "inviteTitle": "¿Quieres llevar a Shavorã a tu ciudad?",
+    "inviteText": "Si deseas llevar la experiencia de Shavorã a tu región, resolver dudas o tratar cualquier otro asunto, completa el formulario a continuación y nos pondremos en contacto contigo."
+    }
+  
+  
+}

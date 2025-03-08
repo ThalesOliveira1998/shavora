@@ -1,5 +1,8 @@
 import Landing from '@/components/template/index';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
-  return <Landing />;
+  const {  } = useTranslation();
+
+  return <Landing  />;
 }

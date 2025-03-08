@@ -1,0 +1,65 @@
+{
+  "menu": {
+    "title": "Menu",
+    "home": "Home",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us",
+    "social": "Social Media"
+  },
+  "slogan": {
+    "connecting": "Connecting",
+    "cultures": "Cultures",
+    "and": "and",
+    "healingSouls": "healing souls",
+    "story": "Two voices, one story. Discover our history",
+    "duo": "The duo Shavorã blends emotion and authenticity into every note."
+  },
+  "whoweare": {
+    "shavoraTitle": "What is Shavorã?",
+    "shavoraText": "Roots and Wings The word Shavorã means woman in the Yawanawa language. The Shavorã movement symbolizes the struggle for equity, equality, the empowerment of indigenous women, and the visibility of the LGBTQIAPN+ community in the context of indigenous traditions. Shavorã's mission is to transform social and spiritual reality by providing a platform for female and LGBTQIAPN+ voices to be heard and respected. They are dedicated to fighting machismo within the spiritual environment while still honoring their ancestral roots, believing in 'wings' of new thought to transform oppressive structures. Inspired by Hushahu, the first Yawanawa woman to occupy a significant space in her people's spiritual field. The union of Hukena and Nãwãēma represents a break from such structures, giving voice to women's issues and working towards valuing Yawanawá culture and indigenous rights.",
+    "nawaemaTitle": "Nãwãēma",
+    "nawaemaText": "She is a woman deeply connected to spirituality, the fight for women's rights, and the preservation of ancestral traditions. Her spiritual journey and connection stem from the unique Afro-Brazilian syncretism of the Umbanda tradition, where she dedicated herself to learning from a very young age through her family lineage. This tradition provided her with a solid foundation of faith, respect for ancestors, and spiritual work. Throughout her life, she developed a unique understanding of female strength as a pillar of spiritual and social transformation. When she met Hukena, she deepened her spiritual connection and began an intense learning process by immersing herself in Yawanawa traditions.",
+    "hukenaTitle": "Hukena",
+    "hukenaText": "She is an indigenous woman from the Yawanawá ethnicity. She began her spiritual journey at a very young age, being one of the youngest women in her people to be fully initiated into the most sacred and important spiritual practices of her tradition. She received these blessings and teachings from Tata, one of the last two great spiritual masters of the Yawanawa nation, and her mother, Hushahu. Since then, she has dedicated her life's journey to the study of sacred medicines. Through her ancestral knowledge, she leads spiritual and healing ceremonies throughout Brazil and abroad, bringing her strength, wisdom, and songs alongside sacred medicines.",
+    "yawanawaTitle": "Who are the Yawanawá?",
+    "yawanawaText": "The Yawanawá people are an indigenous group living in the Gregório River region of Acre, Brazil. They belong to the Pano linguistic family and have a rich spiritual, cultural, and medicinal tradition."
+  },
+  "testimonials": {
+    "title": "Testimonials from those who follow us...",
+    "priscila": {
+      "name": "Priscila Oliveira",
+      "title": "Duo listener",
+      "text": "I always listen to Shavorã's music; it feels like medicine for my soul. Each melody brings peace, connection, and an energy that touches deeply."
+    },
+    "celso": {
+      "name": "Celso Mário",
+      "title": "Ceremony participant",
+      "text": "I participated in one of Shavorã’s ceremonies, and the event transformed my life in a profound way."
+    },
+    "beatriz": {
+      "name": "Beatriz Farias",
+      "title": "Duo enthusiast",
+      "text": "I deeply believe in the importance of the work that Dominique and Hukena do, as they introduce the Yawanawa culture to the world."
+    }
+  },
+  "footer": {
+    "knowOur": "Get to know our",
+    "networks": "networks",
+    "social": "social media",
+    "createdBy": "Created and developed by",
+    "rights": "All rights reserved"
+  },
+
+    "contact": {
+      "title": "Contact Us",
+      "formTitle": "Get in touch with us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "inviteTitle": "Do you want to bring Shavorã to your city?",
+    "inviteText": "If you want to bring the Shavorã experience to your region, ask questions, or discuss any other matters, fill out the form below and we will contact you!"
+    }
+
+  
+}

@@ -1,0 +1,64 @@
+{
+  "menu": {
+    "title": "Menu",
+    "home": "Início",
+    "testimonials": "Depoimentos",
+    "contact": "Fale Conosco",
+    "social": "Redes Sociais"
+  },
+  "slogan": {
+    "connecting": "Conectando",
+    "cultures": "Culturas",
+    "and": "e",
+    "healingSouls": "curando almas",
+    "story": "Duas vozes, uma história. Conheça a nossa história",
+    "duo": "A dupla Shavorã mistura emoção e autenticidade em cada nota."
+  },
+  "whoweare": {
+    "shavoraTitle": "O que é Shavorã?",
+    "shavoraText": "Raízes e Asas. A palavra Shavorã significa mulher, na língua Yawanawa. O movimento Shavorã simboliza a luta pela equidade, pela igualdade, pelo empoderamento das mulheres indígenas e pela visibilidade da comunidade LGBTQIAPN+ no contexto das tradições indígenas. A missão de Shavorã é transformar a realidade social e espiritual, oferecendo uma plataforma para que as vozes femininas e LGBTQIAPN+ sejam ouvidas e respeitadas. Elas se dedicam a combater o machismo dentro do ambiente e do meio espiritual, honrando suas raízes ancestrais e acreditando em “asas” de um novo pensamento para transformar estruturas opressoras. Inspiradas por Hushahu, a primeira mulher Yawanawa a ocupar um espaço significativo no campo espiritual de seu povo. A união de Hukena e Nãwãēma representa um rompimento com tais estruturas e busca dar voz às questões que afetam as mulheres, além de trabalhar na valorização da cultura Yawanawá e na luta pelos direitos dos povos indígenas.",
+    "nawaemaTitle": "Nãwãēma",
+    "nawaemaText": "É uma mulher profundamente conectada à espiritualidade, à luta pelos direitos das mulheres e à preservação das tradições ancestrais. Seu caminho e conexão espiritual vêm do singular sincretismo afro-brasileiro da tradição da Umbanda, onde se dedicou ao aprendizado desde muito jovem, através de sua linhagem familiar. Essa tradição lhe proporcionou uma base sólida de fundamento, fé, respeito aos ancestrais e trabalho espiritual. Ao longo de sua vida, desenvolveu uma compreensão única da força feminina como pilar da transformação espiritual e social.",
+    "hukenaTitle": "Hukena",
+    "hukenaText": "É uma mulher indígena da etnia Yawanawá. Iniciou sua jornada no caminho da espiritualidade muito jovem, sendo uma das mulheres mais jovens de seu povo a ser totalmente iniciada nas práticas espirituais mais sagradas e importantes de sua tradição. Ela recebeu essas bênçãos e ensinamentos das mãos e do coração de Tata, um dos dois últimos grandes mestres espirituais da nação Yawanawa, e de sua mãe Hushahu. Desde então, dedica sua vida ao estudo das medicinas sagradas.",
+    "yawanawaTitle": "Quem são os Yawanawá?",
+    "yawanawaText": "O povo Yawanawá é um grupo indígena que habita a região do rio Gregório, no Acre, Brasil. Pertencem à família linguística Pano e possuem uma rica tradição espiritual, cultural e medicinal."
+  },
+  "testimonials": {
+    "title": "Relatos de quem nos acompanha...",
+    "priscila": {
+      "name": "Priscila Oliveira",
+      "title": "Ouvinte da dupla",
+      "text": "Sempre escuto a música da Shavorã; é como um remédio para minha alma. Cada melodia traz paz, conexão e uma energia que toca profundamente."
+    },
+    "celso": {
+      "name": "Celso Mário",
+      "title": "Participante das cerimônias",
+      "text": "Participei de uma das cerimônias da Shavorã e o evento transformou minha vida de uma forma profunda."
+    },
+    "beatriz": {
+      "name": "Beatriz Farias",
+      "title": "Entusiasta da dupla",
+      "text": "Acredito profundamente na importância do trabalho que Dominique e Hukena realizam, pois elas apresentam a cultura Yawanawa ao mundo."
+    }
+  },
+  "footer": {
+    "knowOur": "Conheça nossas",
+    "networks": "redes",
+    "social": "sociais",
+    "createdBy": "Criado e desenvolvido por",
+    "rights": "Todos os direitos reservados"
+  },
+
+    "contact": {
+      "title": "Fale Conosco",
+      "formTitle": "Entre em contato conosco",
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar",
+     "inviteTitle": "Quer levar a Shavorã para sua cidade?",
+    "inviteText": "Se deseja trazer a experiência Shavorã para sua região, tirar dúvidas ou tratar de qualquer outro assunto, preencha o formulário abaixo e entraremos em contato!"
+    }
+  
+}
