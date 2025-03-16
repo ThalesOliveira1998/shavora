@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MenuItem } from "./MenuItem";
-import { FaBars, FaHome, FaCommentDots, FaEnvelope, FaGlobe } from "react-icons/fa";
+import { FaBars, FaHome, FaCommentDots, FaEnvelope, FaGlobe, FaBook } from "react-icons/fa"; // ✅ Adicionando ícone para o Blog
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next"; // ✅ Use `useTranslation` diretamente
 
@@ -37,6 +37,10 @@ export default function Menu() {
           <MenuItem url="/faleconosco" className="menu-item">
             <FaEnvelope size={18} />
             {t("menu.contact")} {/* ✅ Traduzindo "Fale Conosco" */}
+          </MenuItem>
+          <MenuItem url="/blog" className="menu-item"> {/* ✅ Adicionando o Blog ao menu */}
+            <FaBook size={18} />
+            {t("menu.blog")} {/* ✅ Traduzindo "Blog" */}
           </MenuItem>
           <MenuItem url="#rodape" className="menu-item">
             <FaGlobe size={18} />
