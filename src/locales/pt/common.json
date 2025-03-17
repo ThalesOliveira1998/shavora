@@ -62,7 +62,8 @@
   },
   "blog": {
     "title": "Nosso Blog",
-    "subtitle": "Bem-vindo ao Blog da Shavorã! 🌿✨\n\nAqui você encontrará curiosidades, reflexões e novidades sobre medicina espiritual, bem-estar.\n\n🌀 **Notícias e tendências** – Eventos e descobertas espirituais.\n🌿 **Curiosidades** – Histórias, mitos e tradições sagradas.\n✨ **Reflexões e Sabedoria** – Inspirações para sua jornada interior.\n🌱 **Dicas e Práticas** – Meditação.\n\nAcompanhe e explore novos caminhos para a espiritualidade! 💛",
+    "subtitle": "**Bem-vindo ao Blog da Shavorã! 🌿**",
+    "subtitle2" :"\nAqui você encontrará curiosidades, reflexões e novidades sobre medicina espiritual, bem-estar.\n\n🌀 **Notícias e tendências** – Eventos e descobertas espirituais.\n🌿 **Curiosidades** – Histórias, mitos e tradições sagradas.\n✨ **Reflexões e Sabedoria** – Inspirações para sua jornada interior.\n🌱 **Dicas e Práticas** – Meditação.\n\nAcompanhe e explore novos caminhos para a espiritualidade! 💛",
     "back": "Voltar para o Blog",
     "posts": {
       "primeiro-post": {

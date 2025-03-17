@@ -6,7 +6,21 @@ import Cabecalho from "@/components/template/cabecalho";
 import Rodape from "@/components/template/rodape";
 import Area from "@/components/template/comum/Area";
 
-
+function formatTextWithHighlight(text: string) {
+  return text.split("\n").map((line, index) => (
+    <p key={index} className="mb-2">
+      {line.split(/(\*\*[^*]+\*\*)/g).map((segment, i) =>
+        segment.match(/\*\*([^*]+)\*\*/) ? (
+          <span key={i} className="text-blue-400 font-bold">
+            {segment.replace(/\*\*/g, "")}
+          </span>
+        ) : (
+          segment
+        )
+      )}
+    </p>
+  ));
+}
 
 export default function Blog() {
   const { t, i18n } = useTranslation();
@@ -25,6 +39,7 @@ export default function Blog() {
       title: t("blog.posts.desenvolvendo-intuicao.title"),
       excerpt: t("blog.posts.desenvolvendo-intuicao.excerpt"),
       image: "/images/desenvolvendo-intuicao.jpg",
+      date: "20/03/2025",
     }
   ];
 
@@ -37,11 +52,16 @@ export default function Blog() {
           {t("blog.title")}
         </h1>
 
-        {/* ✅ Ajuste para exibir a legenda corretamente com quebras de linha */}
+        {/* ✅ `blog.subtitle` com destaque */}
+        <div className="mt-6 text-xl md:text-2xl text-center max-w-4xl mx-auto leading-relaxed tracking-wide">
+  <span className="bg-gradient-to-r from-purple-900 via-indigo-500 to-purple-900 text-transparent bg-clip-text">
+    {formatTextWithHighlight(t("blog.subtitle"))}
+  </span>
+</div>
+
+        {/* ✅ Novo `blog.subtitle2` para continuar o conteúdo */}
         <div className="mt-4 text-lg text-gray-400 text-center max-w-3xl mx-auto">
-          {t("blog.subtitle").split("\n").map((line, index) => (
-            <p key={index} className="mb-2">{line}</p>
-          ))}
+          {formatTextWithHighlight(t("blog.subtitle2"))}
         </div>
 
         {/* Lista de posts */}
