@@ -32,16 +32,28 @@ export default function Blog() {
       title: t("blog.posts.primeiro-post.title"),
       excerpt: t("blog.posts.primeiro-post.excerpt"),
       image: "/images/primeiro-post.jpg",
-      date: "16/03/2025",
+      date: "2025-03-16", // ✅ ISO format
     },
     {
       slug: "desenvolvendo-intuicao",
       title: t("blog.posts.desenvolvendo-intuicao.title"),
       excerpt: t("blog.posts.desenvolvendo-intuicao.excerpt"),
       image: "/images/desenvolvendo-intuicao.jpg",
-      date: "20/03/2025",
-    }
+      date: "2025-03-20",
+    },
+    {
+      slug: "perigo-da-idolatria",
+      title: t("blog.posts.perigo-da-idolatria.title"),
+      excerpt: t("blog.posts.perigo-da-idolatria.excerpt"),
+      image: "/images/perigo-da-idolatria.jpg",
+      date: "2025-03-29",
+    },
   ];
+
+  // ✅ Ordena os posts do mais recente para o mais antigo
+  const sortedPosts = posts.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">
@@ -54,10 +66,10 @@ export default function Blog() {
 
         {/* ✅ `blog.subtitle` com destaque */}
         <div className="mt-6 text-xl md:text-2xl text-center max-w-4xl mx-auto leading-relaxed tracking-wide">
-  <span className="bg-gradient-to-r from-purple-900 via-indigo-500 to-purple-900 text-transparent bg-clip-text">
-    {formatTextWithHighlight(t("blog.subtitle"))}
-  </span>
-</div>
+          <span className="bg-gradient-to-r from-purple-900 via-indigo-500 to-purple-900 text-transparent bg-clip-text">
+            {formatTextWithHighlight(t("blog.subtitle"))}
+          </span>
+        </div>
 
         {/* ✅ Novo `blog.subtitle2` para continuar o conteúdo */}
         <div className="mt-4 text-lg text-gray-400 text-center max-w-3xl mx-auto">
@@ -66,7 +78,7 @@ export default function Blog() {
 
         {/* Lista de posts */}
         <div className="flex flex-col gap-8 mt-10 max-w-2xl mx-auto">
-          {posts.map((post) => (
+          {sortedPosts.map((post) => (
             <BlogCard
               key={post.slug}
               title={post.title}
