@@ -30,7 +30,7 @@ export default function Menu() {
             <FaHome size={18} />
             {t("menu.home")} {/* ✅ Traduzindo "Início" */}
           </MenuItem>
-          <MenuItem url="/#depoimentos" className="menu-item">
+          <MenuItem url="/relatos" className="menu-item">
             <FaCommentDots size={18} />
             {t("menu.testimonials")} {/* ✅ Traduzindo "Depoimentos" */}
           </MenuItem>

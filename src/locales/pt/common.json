@@ -57,6 +57,7 @@
     "email": "E-mail",
     "message": "Mensagem",
     "send": "Enviar",
+    "whatsapp": "WhatsApp",
     "inviteTitle": "Quer levar a Shavorã para sua cidade?",
     "inviteText": "Se deseja trazer a experiência Shavorã para sua região, tirar dúvidas ou tratar de qualquer outro assunto, preencha o formulário abaixo e entraremos em contato!"
   },
@@ -82,5 +83,27 @@
       "content": "**IDOLATRIA — Quando a promessa é o maior dos perigos**\nA idolatria, em qualquer contexto religioso, pode parecer reconfortante à primeira vista.\n\nAcreditar que existem pessoas iluminadas o suficiente para mediar nossa relação com Deus, guiar nossa jornada espiritual e nos auxiliar em algum resgate da nossa própria força pode aliviar inseguranças e ansiedades diante da vida, preenchendo vazios e dando sentido pra caminhada.\n\nÉ claro que é possível e saudável encontrar pessoas que nos auxiliem nas nossas buscas e processos pessoais, sejam espirituais ou não, mas será que uma entrega e confiança absolutas em figuras sacerdotais é realmente seguro?\n\nEm muitas tradições religiosas, a idolatria abre espaço para uma perigosa concentração de poder em figuras específicas.\n\nEsse poder não é conquistado apenas por merecimento espiritual. Existe uma estrutura social que favorece o poder na mão de poucos e trabalha pela manutenção disso, única e exclusivamente.\n\nÉ importante que a gente desenvolva entendimento sobre os mecanismos de poder e suas construções históricas para que tenhamos clareza e discernimento sobre o que acontece em nossos espaços religiosos.\n\nNem todo abuso é escancarado e, muitas vezes, é difícil perceber que estamos sendo vítimas de manipulação.\n\nComo forma de autocuidado, é importante que sejamos capazes de nos questionar:\nPor que precisamos de figuras para idolatrar? A que isso nos serve? Quais são os medos, fragilidades e vazios existenciais que movem e mantêm essas relações?\n\nQuando uma pessoa é colocada num pedestal e julgada como infalível, isso pode facilmente resultar em abusos e manipulação.\n\nO risco é grande:\nA autonomia de pensamento é sacrificada enquanto o controle, a explicação e a decisão sobre nossas experiências se desloca para a mão de terceiros.\n\nA idolatria não só impede o desenvolvimento de uma relação autônoma e consciente com nossas experiências, como pode nos colocar em situações de risco bastante preocupantes.\n\n**O Perigo da Sugestão no Contexto Ayahuasqueiro**\nNo meio ayahuasqueiro isso é especialmente perigoso, pois a presença da ayahuasca intensifica as vulnerabilidades e nos deixa particularmente sugestionáveis à manipulações e intervenções externas.\n\nA ausência de espaços espirituais que estimulem a autonomia e o senso crítico é algo que merece uma reflexão atenta e profunda.\n\nÀ quem isso beneficia?\nComo construir uma relação mais saudável e segura com as nossas buscas por acolhimento, compreensão e pertencimento dentro dos espaços ayahuasqueiros?\n\n✨ Essa reflexão foi originalmente compartilhada por @aya.saude.pensamento\nUm convite necessário para o discernimento espiritual e o fortalecimento da autonomia individual dentro de espaços de cura."
     }
     }
+  },
+ "relatos": {
+    "items": [
+      {
+        "quote": "A Shavorã me ajudou a voltar pra mim. Durante muito tempo, coloquei minha espiritualidade nas mãos de outras pessoas, achando que elas sabiam mais sobre minha alma do que eu mesma. Foi ouvindo as músicas e reflexões da dupla que percebi o quanto eu havia me afastado da minha própria intuição. Hoje, sigo meu caminho com mais autonomia, aprendendo a escutar meu coração antes de qualquer voz externa.",
+        "name": "Sarah Chen",
+        "designation": "Ouvinte da dupla",
+        "src": "/images/relatos/sarah.jpg"
+      },
+      {
+        "quote": "Já estive em contextos espirituais onde tudo era baseado em hierarquia e obediência cega. Não percebia o quanto isso me deixava vulnerável até que algumas experiências me fizeram despertar. A Shavorã trouxe uma nova forma de enxergar a espiritualidade — mais livre, mais leve, mais minha. Os conteúdos que acompanho da dupla me ajudam a manter o olhar crítico e o coração aberto ao mesmo tempo.",
+        "name": "João Pereira",
+        "designation": "Participante de vivências espirituais",
+        "src": "/images/relatos/joao.jpg"
+      },
+      {
+        "quote": "Tive uma fase em que idealizei demais algumas figuras espirituais. Quando tudo desabou, me senti perdida e sem chão. Foi nesse momento que encontrei a Shavorã e me reconectei com minha própria força. Através das palavras e melodias, aprendi que espiritualidade não é submissão, é presença. Hoje sigo com mais discernimento e amor-próprio no meu caminho de cura.",
+        "name": "Amanda Souza",
+        "designation": "Caminhante da medicina espiritual",
+        "src": "/images/relatos/amanda.jpg"
+      }
+  ]
   }
 }

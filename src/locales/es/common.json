@@ -58,6 +58,7 @@
       "email": "Correo electrónico",
       "message": "Mensaje",
       "send": "Enviar",
+      "whatsapp": "WhatsApp",
       "inviteTitle": "¿Quieres llevar a Shavorã a tu ciudad?",
     "inviteText": "Si deseas llevar la experiencia de Shavorã a tu región, resolver dudas o tratar cualquier otro asunto, completa el formulario a continuación y nos pondremos en contacto contigo."
     },
@@ -83,7 +84,27 @@
           "content": "**La idolatría, en cualquier contexto religioso, puede parecer reconfortante al principio.**\n\nCreer que existen personas lo suficientemente iluminadas como para mediar nuestra relación con Dios, guiar nuestro camino espiritual y ayudarnos a recuperar nuestra fuerza interior puede aliviar inseguridades, llenar vacíos y dar sentido a la vida.\n\nPor supuesto, es posible y saludable encontrar personas que nos apoyen en nuestros procesos personales y espirituales. Pero ¿es realmente seguro entregar confianza absoluta a figuras sacerdotales?\n\n**En muchas tradiciones religiosas, la idolatría permite una peligrosa concentración de poder en figuras específicas.**\n\nEse poder no siempre se adquiere por mérito espiritual. Existe una estructura social que favorece la centralización del poder y se esfuerza por mantenerla.\n\nEs importante desarrollar conciencia sobre los mecanismos del poder y su construcción histórica para tener claridad y discernimiento en nuestros espacios religiosos.\n\nNo todo abuso es evidente, y muchas veces es difícil darse cuenta de que estamos siendo manipulados.\n\n**Como acto de autocuidado, debemos ser capaces de cuestionarnos:**\n¿Por qué necesitamos figuras para idolatrar? ¿Qué función cumplen? ¿Qué miedos, fragilidades o vacíos existenciales sostienen estas relaciones?\n\nCuando colocamos a alguien en un pedestal y lo consideramos infalible, es fácil que eso derive en abusos y manipulación.\n\n**El riesgo es grande:**\nLa autonomía de pensamiento se sacrifica mientras el control y la decisión sobre nuestras experiencias son delegadas a otros.\n\n**El Peligro de la Sugerencia en Contextos con Ayahuasca**\nEn el contexto ayahuasquero esto es especialmente riesgoso, ya que la presencia de la ayahuasca intensifica las vulnerabilidades y nos vuelve más sugestionables a influencias externas.\n\nLa falta de espacios espirituales que fomenten la autonomía y el pensamiento crítico merece una reflexión profunda y atenta.\n\n¿A quién beneficia esto?\n¿Cómo construir una relación más sana y segura con nuestras búsquedas de pertenencia y sanación en estos espacios?\n\n✨ Esta reflexión fue originalmente compartida por @aya.saude.pensamiento\nUna invitación necesaria al discernimiento espiritual y al fortalecimiento de la autonomía individual dentro de espacios de sanación."
         }
       }
-    }
-  
-  
+    },
+    "relatos": {
+    "items": [
+      {
+        "quote": "Shavorã me ayudó a volver a mí. Durante mucho tiempo, puse mi espiritualidad en manos de otras personas, creyendo que sabían más sobre mi alma que yo misma. Fue escuchando las músicas y reflexiones del dúo que me di cuenta de lo lejos que me había alejado de mi propia intuición. Hoy sigo mi camino con más autonomía, aprendiendo a escuchar mi corazón antes que cualquier voz externa.",
+        "name": "Sarah Chen",
+        "designation": "Oyente del dúo",
+        "src": "/images/relatos/sarah.jpg"
+      },
+      {
+        "quote": "He estado en contextos espirituales donde todo se basaba en jerarquía y obediencia ciega. No me daba cuenta de lo vulnerable que eso me hacía hasta que algunas experiencias me despertaron. Shavorã trajo una nueva forma de ver la espiritualidad — más libre, más ligera, más mía. Los contenidos del dúo me ayudan a mantener la mirada crítica y el corazón abierto al mismo tiempo.",
+        "name": "João Pereira",
+        "designation": "Participante de vivencias espirituales",
+        "src": "/images/relatos/joao.jpg"
+      },
+      {
+        "quote": "Hubo una etapa en la que idealicé demasiado a ciertas figuras espirituales. Cuando todo se derrumbó, me sentí perdida y sin rumbo. Fue entonces cuando encontré a Shavorã y me reconecté con mi propia fuerza. A través de sus palabras y melodías, aprendí que la espiritualidad no es sumisión, es presencia. Hoy sigo mi camino de sanación con más discernimiento y amor propio.",
+        "name": "Amanda Souza",
+        "designation": "Caminante de la medicina espiritual",
+        "src": "/images/relatos/amanda.jpg"
+      }
+  ]
+  }
 }

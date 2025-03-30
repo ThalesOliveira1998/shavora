@@ -6,20 +6,24 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(405).json({ message: "Método não permitido" });
   }
 
-  try {
-    const { nome, email, mensagem } = req.body;
+  const { nome, email, mensagem } = req.body;
 
+  if (!nome || !email || !mensagem) {
+    return res.status(400).json({ message: "Dados obrigatórios não enviados." });
+  }
+
+  try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "shavoraadm@gmail.com",
-        pass: "uury qtqw vqai zxjx",
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
     const mailOptions = {
       from: email,
-      to: "shavoraadm@gmail.com",
+      to: process.env.EMAIL_USER,
       subject: `Nova mensagem de ${nome}`,
       text: `Nome: ${nome}\nEmail: ${email}\nMensagem: ${mensagem}`,
     };

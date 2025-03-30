@@ -58,6 +58,7 @@
       "email": "Email",
       "message": "Message",
       "send": "Send",
+      "whatsapp": "WhatsApp",
       "inviteTitle": "Do you want to bring Shavorã to your city?",
     "inviteText": "If you want to bring the Shavorã experience to your region, ask questions, or discuss any other matters, fill out the form below and we will contact you!"
     },
@@ -83,7 +84,29 @@
         "content": "**Idolatry, in any religious context, can seem comforting at first glance.**\n\nBelieving that there are enlightened people capable of mediating our relationship with God, guiding our spiritual journey, and helping us reclaim our own strength can ease insecurities and anxieties, filling voids and giving meaning to life.\n\nOf course, it’s possible and healthy to find people who support our personal and spiritual processes. But is it truly safe to place absolute trust and surrender in priestly figures?\n\n**In many religious traditions, idolatry paves the way for a dangerous concentration of power in specific individuals.**\n\nThis power is not earned solely through spiritual merit. There is a social structure that favors and preserves the power in the hands of a few.\n\nIt’s important that we understand the mechanisms of power and their historical construction so that we can act with clarity and discernment in spiritual environments.\n\nNot every abuse is obvious. Many times, it's hard to even realize we are being manipulated.\n\n**As a form of self-care, we must be able to question ourselves:**\nWhy do we need figures to idolize? What purpose does it serve? What fears, weaknesses, and existential voids drive and sustain these relationships?\n\nWhen someone is placed on a pedestal and seen as infallible, it can easily lead to abuse and manipulation.\n\n**The risk is high:**\nAutonomy of thought is sacrificed while control and decision-making over our experiences are handed over to others.\n\n**The Danger of Suggestion in Ayahuasca Contexts**\nIn the ayahuasca world, this is especially dangerous. The presence of ayahuasca amplifies vulnerabilities, making us particularly suggestible to external manipulation.\n\nThe lack of spiritual spaces that foster autonomy and critical thinking deserves deep and careful reflection.\n\nWho benefits from this?\nHow can we build healthier and safer relationships within ayahuasca healing spaces?\n\n✨ This reflection was originally shared by @aya.saude.pensamento\nAn important invitation to spiritual discernment and the strengthening of individual autonomy in healing spaces."
       }
     }
-  }
+  },
+  "relatos": {
+  "items": [
+    {
+      "quote": "Shavorã helped me return to myself. For a long time, I placed my spirituality in the hands of others, thinking they knew more about my soul than I did. It was through listening to the duo’s music and reflections that I realized how far I had strayed from my own intuition. Today, I walk my path with more autonomy, learning to listen to my heart before any external voice.",
+      "name": "Sarah Chen",
+      "designation": "Listener of the duo",
+      "src": "/images/relatos/sarah.jpg"
+    },
+    {
+      "quote": "I’ve been in spiritual contexts where everything was based on hierarchy and blind obedience. I didn’t realize how vulnerable that made me until some experiences awakened me. Shavorã brought a new way of seeing spirituality — freer, lighter, more mine. The content I follow from the duo helps me keep a critical eye and an open heart at the same time.",
+      "name": "João Pereira",
+      "designation": "Participant in spiritual experiences",
+      "src": "/images/relatos/joao.jpg"
+    },
+    {
+      "quote": "There was a time when I idealized some spiritual figures too much. When everything collapsed, I felt lost and ungrounded. That’s when I found Shavorã and reconnected with my own strength. Through their words and melodies, I learned that spirituality is not submission, it's presence. Today, I walk my healing path with more discernment and self-love.",
+      "name": "Amanda Souza",
+      "designation": "Walker of the spiritual medicine path",
+      "src": "/images/relatos/amanda.jpg"
+    }
+]
+}
 
   
 }
