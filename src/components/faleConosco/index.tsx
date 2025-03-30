@@ -1,27 +1,26 @@
 import Cabecalho from "../template/cabecalho";
 import Rodape from "../template/rodape";
-import Formulario from "./Formulario";
 import ConteudoFaleConosco from "./ConteudoFaleConosco";
-import { useTranslation } from "react-i18next"; // ✅ Importando o hook de tradução
+import FaleConoscoModal from "./FaleConoscoModal";
+import { useTranslation } from "react-i18next";
 
 const FaleConosco = () => {
-  const { t } = useTranslation(); // ✅ Obtendo `t` do hook
+  const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-black text-white">
       {/* Cabeçalho */}
       <Cabecalho />
 
-      {/* Título e Conteúdo Traduzido */}
+      {/* Título */}
       <div className="text-center mt-10 text-white text-4xl font-bold">
-        {t("contact.title")} {/* 🔹 Traduzindo "Fale Conosco" */}
+        {t("contact.title")}
       </div>
 
-      <ConteudoFaleConosco />
-
-      <div className="flex flex-1 items-center justify-center p-10">
-        <Formulario />
-      </div>
+      {/* Conteúdo */}
+      <div className="mb-16 bg-black text-white">
+  <ConteudoFaleConosco />
+</div>
 
       {/* Rodapé */}
       <Rodape />
