@@ -1,7 +1,6 @@
 import Cabecalho from "../template/cabecalho";
 import Rodape from "../template/rodape";
 import ConteudoFaleConosco from "./ConteudoFaleConosco";
-import FaleConoscoModal from "./FaleConoscoModal";
 import { useTranslation } from "react-i18next";
 
 const FaleConosco = () => {

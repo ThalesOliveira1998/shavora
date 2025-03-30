@@ -1,7 +1,6 @@
 import Area from "@/components/template/comum/Area";
 import { useTranslation } from "react-i18next";
 import FaleConoscoModal from "./FaleConoscoModal";
-import { Button } from "@mantine/core";
 
 export default function ConteudoFaleConosco() {
   const { t } = useTranslation();
