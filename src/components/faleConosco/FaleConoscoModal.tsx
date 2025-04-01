@@ -55,8 +55,16 @@ export default function FaleConoscoModal() {
         {t("contact.buttonLabel")}
       </Button>
 
-      {/* Modal */}
-      <Modal opened={opened} onClose={close} title={t("contact.title")} centered>
+      {/* Modal com texto claro e fundo escuro */}
+      <Modal
+        opened={opened}
+        onClose={close}
+        centered
+        classNames={{
+          content: "bg-[#1a1a1a] text-white", // fundo escuro + texto branco
+        }}
+        title={<span className="text-white">{t("contact.title")}</span>}
+      >
         <form className="space-y-4">
           <TextInput
             label={t("contact.name")}
@@ -64,6 +72,7 @@ export default function FaleConoscoModal() {
             value={nome}
             onChange={(e) => setNome(e.target.value)}
             required
+            classNames={{ label: "text-white", input: "text-black" }}
           />
           <TextInput
             label={t("contact.email")}
@@ -71,6 +80,7 @@ export default function FaleConoscoModal() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
+            classNames={{ label: "text-white", input: "text-black" }}
           />
           <Textarea
             label={t("contact.message")}
@@ -79,6 +89,7 @@ export default function FaleConoscoModal() {
             onChange={(e) => setMensagem(e.target.value)}
             required
             minRows={4}
+            classNames={{ label: "text-white", input: "text-black" }}
           />
 
           <Group justify="flex-end" mt="md">
