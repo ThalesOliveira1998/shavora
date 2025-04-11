@@ -5,6 +5,7 @@ import QuemSomos from "@/components/template/vantagens";
 import Rodape from "@/components/template/rodape";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Lancamento from "../lancamento";
 
 export default function Landing() {
   const { t } = useTranslation(); // Pegando `t` diretamente do hook
@@ -13,6 +14,7 @@ export default function Landing() {
     <>
       <Cabecalho /> {/* Passando `t` para o cabeçalho */}
       <Destaque t={t} />
+      <Lancamento t={t} />
       <QuemSomos t={t} />
       <Depoimentos t={t} />
       <Rodape />

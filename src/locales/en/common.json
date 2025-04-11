@@ -106,7 +106,19 @@
       "src": "/images/relatos/amanda.jpg"
     }
 ]
-}
+},
+"lancamento": {
+    "tag": "RELEASE | April 15",
+    "titulo": "Our new single is coming 🎶🍃🪶",
+    "descricao": "Mano mano Zoeko — a unique guitar reinterpretation of a traditional chant that celebrates the animals of the forest. Now it pulses with strings, beats, and feminine strength.",
+    "frasePoetica": "Tradition transforming into sound.\nShavorã in flight. 🌹🌬️\nA rose born from ancestry.",
+    "infoEp": "This single is the second track of our first EP:",
+    "nomeEp": "Roots and Wings – Volume 1",
+    "botao": "❤️‍🔥 Pre-Save Now",
+    "footer": "Listen. Feel. Share.",
+    "link": "https://linktr.ee/shavora",
+    "imagemAlt": "Mano Mano Zoeko"
+  }
 
   
 }

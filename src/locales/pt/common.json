@@ -106,5 +106,20 @@
         "src": "/images/relatos/amanda.jpg"
       }
   ]
-  }
+  },
+  
+    "lancamento": {
+      "tag": "LANÇAMENTO | 15 de abril",
+      "titulo": "Tá chegando nosso novo Single 🎶🍃🪶",
+      "descricao": "Mano mano Zoeko — releitura inédita no violão de um canto tradicional, que celebra os animais da floresta. Agora vibra em cordas, batidas e força feminina.",
+      "frasePoetica": "É tradição se transformando em som.\nÉ Shavorã em voo. 🌹🌬️\nÉ rosa que nasce da ancestralidade.",
+      "infoEp": "Esse single é a segunda faixa do nosso primeiro EP:",
+      "nomeEp": "Raízes e Asas – Volume 1",
+      "botao": "❤️‍🔥 Faça o Pré-Save",
+      "footer": "Ouça. Sinta. Compartilhe.",
+      "link": "https://linktr.ee/shavora",
+      "imagemAlt": "Mano Mano Zoeko"
+    }
+  
+
 }
